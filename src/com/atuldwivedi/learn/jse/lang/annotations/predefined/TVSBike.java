@@ -2,9 +2,8 @@ package com.atuldwivedi.learn.jse.lang.annotations.predefined;
 
 public class TVSBike implements Bike {
 
-	@Override
 	@Deprecated
-	public void start() {
+	public void startUsingKick() {
 		System.out.println(this.getClass().getSimpleName() + " started using kick.");
 	}
 	
@@ -18,7 +17,6 @@ public class TVSBike implements Bike {
 
 	}
 
-	@Override
 	public void stop() {
 		System.out.println(this.getClass().getSimpleName() + " stoped.");
 

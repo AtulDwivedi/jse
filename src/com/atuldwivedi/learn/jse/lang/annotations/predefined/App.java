@@ -6,7 +6,7 @@ public class App {
 	public static void main(String[] args) {
 		TVSBike tvsBike = new TVSBike();
 		tvsBike.fuelUpTank();;
-		tvsBike.start();
+		tvsBike.startUsingKick();
 		tvsBike.changeGear();
 		tvsBike.stop();
 		tvsBike.bikeService();

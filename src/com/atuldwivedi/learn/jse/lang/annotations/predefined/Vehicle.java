@@ -1,10 +1,8 @@
 package com.atuldwivedi.learn.jse.lang.annotations.predefined;
 
+@FunctionalInterface
 public interface Vehicle {
 
-	public void start();
-
 	public void move();
-
-	public void stop();
+	
 }
