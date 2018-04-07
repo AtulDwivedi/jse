@@ -1,2 +1,2 @@
 # JSE
-Java Platform Standard Edition
+Java Platform Standard Edition 
